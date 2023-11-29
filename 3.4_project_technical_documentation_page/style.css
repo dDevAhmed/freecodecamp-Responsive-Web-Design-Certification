@@ -1,0 +1,144 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+aside nav {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+aside header {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    position: relative;
+    /* top: 0; */
+    background: #fff;
+    color: #000;
+    z-index: 1;
+}
+
+aside img {
+    height: 50px;
+}
+
+aside h1 {
+    margin: 15px;
+}
+
+aside nav ul {
+    padding-inline-start: 0;
+    height: 80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+aside ul li {
+    list-style-type: none;
+    padding: 10px 30px;
+    border-top: 1px solid rgba(0, 22, 22, 0.4);
+    position: relative;
+    width: 100%;
+    /* background-color: #f7df1e; */
+}
+
+aside ul li:hover {
+    background-color: #f7df1e;
+}
+
+.active{
+    background-color: #f7df1e;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #4d4e53;
+}
+
+main {
+    position: absolute;
+    left: 310px;
+    padding: 30px;
+    /* width: fit-content; */
+}
+
+section p,
+section li,
+section .code-container {
+    line-height: 25px;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    color: #000;
+}
+
+section p {
+    padding-left: 20px;
+}
+
+section li {
+    margin: 10px 0 10px 20px;
+}
+
+.code-container {
+    background-color: #f7f7f7;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px 0 20px 30px;
+}
+
+@media (max-width: 750px) {
+    aside nav {
+        background-color: white;
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-height: 275px;
+        border: none;
+        z-index: 1;
+    }
+
+    aside header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        background: #fff;
+        z-index: 1;
+    }
+
+    aside nav ul{
+        height: 210px;
+        border: 2px solid #4d4e53;
+    }
+
+    aside img {
+        margin-top: 10px;
+    }
+
+    main {
+        position: relative;
+        margin-left: -310px;
+        margin-top: 330px;
+        width: 100%;
+    }
+}

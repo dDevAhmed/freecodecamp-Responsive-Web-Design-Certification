@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    color: #444;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 30px 10px;
+    font-size: 16px;
+}
+
+main{
+    background-color: #eee;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+header{
+    text-align: center;
+    /* padding-top: 20px; */
+}
+
+#img-div{
+    background-color: white;
+    padding: 10px;
+    /* text-align: center; */
+}
+
+img{
+    width: auto;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    /* min-width: 480px; */
+}
+
+#img-div figcaption{
+    margin-top: 20px;
+    font-size: small;
+    text-align: center;
+}
+
+#tribute-info{
+    padding-top: 40px;
+}
+
+#tribute-info h3{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 1.0rem;
+}
+
+#tribute-info li{
+    margin: 30px 0;
+    font-size: 0.9rem;
+    /* font-weight: lighter; */
+}
+
+#tribute-info .date::after{
+    content: " - ";
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#tribute-info, .testimony-container{
+    width: auto;
+    margin: auto;
+    max-width: 700px;
+}
+
+.testimony-container{
+    padding: 20px 0;
+}
+
+.testimony, .prime-minister{
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.prime-minister::before{
+    content: "-- ";
+}
+
+.read-more{
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 0 -5px;
+}
