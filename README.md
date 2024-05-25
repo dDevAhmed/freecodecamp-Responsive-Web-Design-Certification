@@ -7,18 +7,24 @@ Welcome to my repository for projects related to the FreeCodeCamp Responsive Web
 1. **Survey Form**
 
    A responsive survey form that demonstrates my understanding of HTML form elements and styling using CSS.
+   [Live Preview](https://ddevahmed.github.io/freecodecamp-Responsive-Web-Design-Certification/1.5_project_survey_form
+)
 
 2. **Tribute Page**
 
    A simple webpage dedicated to a person or subject of my choice. It's designed to showcase what I've learned about basic HTML and CSS.
+   [Live Preview](https://ddevahmed.github.io/freecodecamp-Responsive-Web-Design-Certification/2.5_project_tribute_page
+)
 
 3. **Technical Documentation Page**
 
    A technical documentation page that illustrates my ability to present information in a clear and organized manner using HTML and CSS.
+   [Live Preview](https://ddevahmed.github.io/freecodecamp-Responsive-Web-Design-Certification/3.4_project_technical_documentation_page)
 
 4. **Product Landing Page**
 
    An interactive landing page for a product, highlighting my proficiency in creating engaging layouts with HTML and CSS.
+   [Live Preview](https://ddevahmed.github.io/freecodecamp-Responsive-Web-Design-Certification/4.3_project_product_landing_page)
 
 5. **Personal Portfolio Webpage**
 
